@@ -17,7 +17,7 @@ From another tab, send the image file in a request:
 
 or using HTTPie:
 ```sh
-http -v POST 127.0.0.1:5000/predict --form file@shark.jpeg
+http -v POST 127.0.0.1:5000/predict --form file@./_static/shark.jpeg
 ```
 
 
